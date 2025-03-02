@@ -1,0 +1,11 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "serviceworker": true // Add service worker environment
+    },
+    "extends": "react-app",
+    "rules": {
+      "no-restricted-globals": ["error", { "name": "self", "message": "Use window instead of self in non-service-worker files" }]
+    }
+  }
