@@ -15,7 +15,7 @@ function App() {
   const [notificationStatus, setNotificationStatus] = useState('default'); // Track permission state
   const ITEMS_PER_PAGE = 10;
 
-  const BASE_URL = process.env.REACT_APP_BASE_URL || 'http://localhost:5000';
+  const BASE_URL = process.env.REACT_APP_BASE_URL || 'https://disaster-backend-tyrg.onrender.com';
   const VAPID_PUBLIC_KEY = process.env.REACT_APP_VAPID_PUBLIC_KEY;
   const socket = io(BASE_URL);
 
