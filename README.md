@@ -14,7 +14,7 @@ A React-based Progressive Web App (PWA) displaying real-time earthquake alerts f
 - Real-time updates via Socket.IO
 
 ## Deployment
-- Hosted on Render: `https://disaster-frontend.onrender.com`
+- Hosted on Render: [`https://disaster-notification.onrender.com`](https://disaster-notification.onrender.com/)
 
 ## Usage as a PWA
 - Open in a browser (e.g., Chrome) and click the install button (top-right) to add it to your device.
